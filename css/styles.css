@@ -1,0 +1,208 @@
+/* Sakshi 8908294 */
+
+body, h1, h2, p, blockquote, footer {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+html {
+    font: 20px/1.5 Arial, sans-serif;
+    color: #FAF7FF;
+    background-color: skyblue;
+}
+
+h1, h2 {
+    font-variant: small-caps;
+}
+
+figcaption {
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 1rem; 
+}
+
+q {
+    font-style: italic;
+    font-family: cursive;
+}
+
+footer p {
+    font-size: 0.8rem; 
+}
+
+
+body {
+    width: 80%; 
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding: 20px;
+}
+
+.main-section {
+    text-align: center; 
+    padding:20px; 
+}
+
+.main-section-figure img{
+    height : 60%; /*set width to 60% of the parent element*/
+    width : 60%;/*set height to 60% of the parent element*/
+    border-radius : 1rem; /*relevative to the root units*/
+    padding : .5rem; /*relevative to the root units*/}
+
+#bio {
+    text-align: left; 
+    width : 50%;
+    float : left;
+}
+
+
+header, footer {
+    border: 1px solid #F9F871; 
+    box-shadow: 2px 2px 5px #888; 
+    text-align: center; 
+}
+
+.main-section-figure {
+    border: 1px solid #F9F871; 
+    border-radius: 5px; 
+    box-shadow: 2px 2px 5px #888; 
+    margin: 10px auto; 
+}
+
+figure {
+    display: inline-block; 
+    border: 1px solid #F9F871; 
+    padding: 20px; 
+    margin: 0; 
+}
+
+
+h1, h2 {
+    color: navy; 
+}
+
+
+header, footer {
+    background: linear-gradient(to bottom, #fff, #8685EF);
+}
+
+
+#absolute-path-image {
+    background-color: hsla(240, 100%, 50%, 0.3); /
+}
+
+#relative-path-image {
+    background-color: hsla(25, 90%, 49%, 0.3);  
+    width: 40%;
+    height: 40%;
+    float: right;
+    padding: 1px;
+}
+
+#media{
+    padding: 15px;
+    border: .25rem solid black;
+    width: 100%; height: 60%;
+}
+
+
+h3{
+    text-align: center;
+}
+
+nav{
+    text-align: center;
+    border: 1px solid #000;
+}
+
+#quote{
+    border: .25rem solid black;
+    box-shadow: .5rem .5rem .5rem black;
+    padding: 15px;
+    width: 100%;
+}
+
+aside{
+    margin: 1rem;
+    padding: auto;
+    float: right;
+    width: 25%;
+        
+}
+
+th{
+    border: 1px solid #000;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin: 5px;
+}
+
+
+div #forms{
+    float: left;
+    margin-left: auto;
+}
+
+main{
+    float: left;
+    width: 60%;
+    
+}
+
+footer{
+    clear: both;
+}
+
+
+nav{
+    background-color: cyan;
+    padding: 0 2rem 2rem 2rem ;
+    margin : 1rem;
+    text-align: center;}
+
+nav ul{
+    list-style-type: none;
+    padding : 0.25rem;
+    margin : 0 0.25rem;
+    
+}
+
+nav > ul > li > a{
+    color: blue;
+    background-color:   #f6f7f4;
+    display : block;
+    text-decoration: none;
+    border : 0.1rem solid blue;
+
+}
+nav > ul > li > a:hover{
+    color:  #f6f7f4;
+    background-color: blue; 
+    border : 0.1rem solid  #f6f7f4;;
+
+}
+
+#home-link{
+    float :left;
+    width : 50%;
+}
+#contact-link{
+    float : right;
+    width : 50%
+}
+#q{
+    clear: both;
+}
+
+input[type=text], input[type=email], input[type=date], select, textarea, input[type=tel], input[type=url], input[type=submit], input[type=color]{
+    width : 100%;
+}
+
+label, input[type=submit]{
+    font-variant: small-caps;
+    color : blue;
+    font-weight: bold;
+    font-size: 1rem;
+}
